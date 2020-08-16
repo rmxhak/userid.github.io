@@ -1,0 +1,41 @@
+body {
+    background: black;
+}
+
+.result {
+    text-align:right;
+    color: white;
+    font-size:40px
+}
+
+table {
+    width: 210px;
+    border: 1px;
+    color:white;
+}
+
+.js-number{
+    font-size:50px;
+    width:100%;
+    text-align: center;
+
+}
+
+.operation {
+    font-size: 50px;
+    width:100%;
+    background: rgb(134, 130, 130);
+    text-align: center;
+}
+
+.reset{
+    font-size: 40px;
+    width:100%;
+    background:yellow
+}
+
+.equals {
+    font-size: 50px;
+    width:100%;
+    background: rgb(182, 201, 219);
+}

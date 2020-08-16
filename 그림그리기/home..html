@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="file:///C:/Users/jang/Desktop/그림그리기/1.css" />
+</head>
+<body class="js-body">
+  
+    <!--오늘의 날씨-->  
+    <span class="js-date"></span>
+  <header>
+    <h1>TO DO List!!</h1>
+  </header>
+  
+  <!--날짜-->
+  <span class="js-today today"></span>
+
+  <!--나의 이름-->
+  <form class="js-nameForm">
+    <input id="nameText" type="text" placeholder="What is your Name??" />
+  </form>
+  <span class="js-nameSpan nameSpan"></span>
+  
+  <!--시간-->
+    <h2></h2>
+
+  <!--오늘 할일 리스트-->
+  <form class="js-toDoForm toDoForm">
+    <input id="toDoInput" type="text" placeholder="해야할 일....">
+  </form>
+  <span id="firstToDo">오늘 할일</span>
+    <ul class="js-firstToDo firstToDo"></ul>
+  <span id="secondToDo">내일 할일</span>
+    <ul class="js-secondToDo secondToDo" ></ul>
+
+  <!--계산기-->
+  <a href="file:///C:/Users/jang/Desktop/그림그리기/계산기.html" id="calculate" onclick="window.open(this.href, '_blank', 'width=500px,height=500px,toolbars=no,scrollbars=no'); return false;">
+    계 산 기 <span style="color: yellowgreen;">click</span></a>
+
+
+
+
+
+   <script src="file:///C:/Users/jang/Desktop/그림그리기/현재시간.js"></script>
+   <script src="file:///C:/Users/jang/Desktop/그림그리기/내이름.js"></script>
+   <script src="file:///C:/Users/jang/Desktop/그림그리기/타이틀.js"></script>
+   <script src="file:///C:/Users/jang/Desktop/그림그리기/toDo.js"></script>
+   <script src="file:///C:/Users/jang/Desktop/그림그리기/today.js"></script>
+   <script src="file:///C:/Users/jang/Desktop/그림그리기/img.js"></script>
+   <script src="file:///C:/Users/jang/Desktop/그림그리기/navigation.js"></script>
+</body>
+</html>

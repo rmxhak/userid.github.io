@@ -1,0 +1,183 @@
+h1{
+    text-align:center;
+    color:red;
+    transition:color .5s ease-in-out;
+    font-size:50px;
+    margin:70px;
+    margin-bottom:0px;
+}
+
+input::placeholder {
+    color: white;
+}
+.blue{
+    color:blue;
+}
+
+h2{
+    position:absolute;
+    font-size:35px;
+    top:0%;
+    display:block;
+    height:50px;
+    padding-top:50px;
+    margin:0px;
+    color:blueviolet;
+}
+
+#nameText{
+    text-align:center;
+    width:300px;
+    color: white;
+    position: absolute;
+    left:50%;
+    margin-left:-160px;
+    border:none;
+    height:50px;
+    font-size:25px;
+    
+    background: none;
+    top:20%;
+}
+
+.nameSpan{
+    color:rgb(243, 84, 4);
+    width:300px;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    left:50%;
+    font-size:30px;
+    font-weight:bold;
+    padding-top:50px;
+}
+
+.showing{
+    display:none;
+}
+
+#toDoInput{
+    text-align:center;
+    top:42%;
+    width:300px;
+    color:white;
+    position: absolute;
+    left:50%;
+    margin-left:-160px;
+    border:none;
+    height:40px;
+    font-size:30px;
+    background:none;
+    
+}
+
+#firstToDo{
+    text-align:center;
+    top:52%;
+    width:300px;
+    color: white;
+    position: absolute;
+    left:35%;
+    margin-left:-160px;
+    border:none;
+    height:40px;
+    font-size:30px;
+    background:none;
+}
+#secondToDo{
+    text-align:center;
+    top:52%;
+    width:300px;
+    color: white;
+
+    margin:center;
+    position: absolute;
+    left:65%;
+    margin-left:-160px;
+    border:none;
+    height:40px;
+    font-size:30px;
+    background:none;
+}
+
+.firstToDo{
+    text-align:center;
+    top:57%;
+    width:300px;
+    margin:center;
+    position: absolute;
+    left:30%;
+    margin-left:-160px;
+    border:none;
+    height:40px;
+    font-size:30px;
+    background:none;
+    list-style:none;
+    color: wheat;
+    background-color:transparent;
+    border:0px transparent solid;
+}
+
+.secondToDo{
+    text-align:center;
+    top:57%;
+    width:300px;
+    margin:center;
+    position: absolute;
+    left:60%;
+    margin-left:-160px;
+    border:none;
+    height:40px;
+    font-size:30px;
+    background:none;
+    list-style:none;
+    color: wheat;
+    
+}
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.bgImage{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+.js-date{
+    top:10px;
+    position:absolute;
+    color:white;
+    right:10px;
+    font-size:20px;
+}
+
+.today{
+    top:10px;
+    position:absolute;
+    color:white;
+    font-size:20px;
+}
+
+#calculate {
+    position:absolute;
+    font-size:30px;
+    text-decoration-line: none;
+    color: red;
+    border:2px solid white;
+    right:5%;
+    top:10%;
+}
